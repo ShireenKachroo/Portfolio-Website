@@ -1,0 +1,152 @@
+body {
+    background-color: #e5e5e5; 
+	color: #2A1B3D; 
+    margin: 30px 25px;
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+	color: #071952;
+    font-size: 150px;
+}
+
+h2 {
+    color: #071952;
+}
+
+h3 {
+    text-align: left;
+}
+
+h5 {
+	color: #240A34; 
+    font-size: 25px;
+}
+
+hr {
+	border: 1px solid #071952; 
+    width: 50%;
+}
+
+p {
+	color: #2A1B3D; 
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 20px 0;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+	display: block;
+	height: 200px;
+	margin: 0 auto;
+	width: 200px;
+}
+
+img:hover {
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+ul.b, ul.c, ul.d {
+	border-radius: 30px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	color: #071952;
+	display: inline-flex;
+    list-style-type: none;
+	font-size: 20px;
+	justify-content: center;
+	margin-bottom: 20px;
+	padding: 10px;
+	transition: transform 0.2s;
+	width: 150px;
+	-webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+div {
+    font-size: 30px;
+    margin: 0;
+	text-align: center;
+}
+
+a {
+    color: #4285F4; 
+    font-style: italic;
+}
+
+a:hover {
+    color: #77A6F7; 
+}
+
+.fa {
+	border-radius: 20%;
+    font-size: 25px;
+	padding: 10px;
+	text-align: center;
+    text-decoration: none;
+    width: 30px;
+}
+
+.fa-linkedin {
+    background-color: #0F52BA; 
+    color: white;
+}
+
+.fa-github{
+    background-color: #e5e5e5;
+    color:black;
+}
+.topnav {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #071952; 
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: #64B5F6; 
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #3498DB;
+    color: white;
+}
+
+#myInfo {
+    font-size: 50px;
+    font-style: oblique;
+    color: #071952; 
+}
+
+#edu {
+    font-size: 35px;
+    color: #071952; /* Navy blue */
+}
